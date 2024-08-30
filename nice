@@ -1,0 +1,23 @@
+ {/* بخش صندوق، بانک و غیره (حالا در پایین) */}
+      <div className="simple-view mb-8 flex justify-around items-center">
+        <div className="text-center">
+          <Banknote className="w-12 h-12 mb-2 text-green-500" />
+          <p>صندوق</p>
+        </div>
+        <div className="text-center">
+          <Building2 className="w-12 h-12 mb-2 text-blue-500" />
+          <p>بانک</p>
+        </div>
+        <div className="text-center">
+          <Building className="w-12 h-12 mb-2 text-gray-500" />
+          <p>ساختمان</p>
+        </div>
+        <div className="text-center">
+          <Car className="w-12 h-12 mb-2 text-red-500" />
+          <p>خودرو</p>
+        </div>
+        <div className="text-center">
+          <Warehouse className="w-12 h-12 mb-2 text-yellow-500" />
+          <p>انبار</p>
+        </div>
+      </div>
